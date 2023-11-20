@@ -1,0 +1,78 @@
+*{
+    margin: unset;
+}
+
+.header{
+    border: solid;
+    background-image: url('https://img.freepik.com/free-vector/medical-healthcare-blue-color_1017-26807.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 113px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 68px;
+    align-items: center;
+}
+.navbar a{
+    color: #03045e;
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif ;
+    font-weight: 700;
+    font-size: 26px;
+}
+.navbar a:hover{
+    color: #0077b6;
+    transition: 0.3s;
+}
+.header img{
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: start;
+    }
+}
+
+.banner-txt{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+}
+
+.banner-txt p{
+    width: 510px;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Opens-sans', sans-serif;
+    color: #480ca8;
+}
+
+.images img{
+    width: 260px;
+    height: 310px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 28px 3px rgba(216,113,26,0.75);
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
